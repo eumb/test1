@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget30"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="5"
+    android:orientation="horizontal"
+    android:padding="4dip"
+    android:rowCount="2" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        android:textColor="#C38EC7"
+        android:textSize="10dp"
+        android:textStyle="bold|italic" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:text="TextView"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/thumb"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_column="0"
+        android:layout_gravity="center|fill"
+        android:layout_row="1" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_column="4"
+        android:layout_gravity="left|top"
+        android:layout_row="1"
+        android:src="@android:drawable/ic_menu_set_as" />
+
+</GridLayout>
